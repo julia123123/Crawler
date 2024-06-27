@@ -19,8 +19,3 @@ login_btn = driver.find_element_by_xpath('//*[@value="登　　入"]')
 login_btn.click()
 time.sleep(3)
 print(driver.page_source)
-# driver.get("https://m.facebook.com")
-# for i in range(5):
-#     time.sleep(1.5)
-#     driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')#一次滑一頁
-# time.sleep(20)
